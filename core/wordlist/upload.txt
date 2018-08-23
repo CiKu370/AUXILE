@@ -1,0 +1,79 @@
+Ajax file upload:wp-content/plugins/magister/scripts/thirdparty/ajaxfileupload/ajaxfileupload.php
+Adblock blocker:wp-admin/admin-ajax.php?action=getcountryuser&cs=2
+Blaze:wp-admin/admin.php?page=blaze_manage
+Cat pro:wp-admin/admin.php?page=catpro_manage
+Cherry-plugin:wp-content/plugins/cherry-plugin/admin/import-export/upload.php
+Download manager:wp-content/plugins/downloads-manager/readme.txt
+From Craft:wp-content/plugins/formcraft/file-upload/server/php/
+Levo slide show:wp-admin/admin.php?page=levoslideshow_manage
+Power Zommer:wp-admin/admin.php?page=powerzoomer_manage
+Graffity form:?gf_page=upload
+Revslider upload shell:wp-admin/admin-ajax.php
+Get config:wp-admin/admin-ajax.php?action=revslider_show_image&img=../wp-config.php
+Showbiz:wp-admin/admin-ajax.php
+Simple ads manager:wp-content/plugins/simple-ads-manager/sam-ajax-admin.php
+Slide show pro:wp-admin/admin.php?page=slideshowpro_manage"
+Wp mobile detector:wp-content/plugins/wp-mobile-detector/resize.php?src=$wpmdshell
+Wysija campaign:wp-admin/admin-post.php?page=wysija_campaigns&action=themes
+Inboundio marketing:wp-content/plugins/inboundio-marketing/admin/partials/csv_uploader.php
+Dzs-zoomsounds:wp-content/plugins/dzs-zoomsounds/admin/upload.php
+Reflex gallery:wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php
+Creative contact form:/wp-content/plugins/sexy-contact-form/includes/fileupload/index.php
+Work the flow file upload:wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/
+WP job manager:jm-ajax/upload_file/
+Php event calendar:wp-content/plugins/php-event-calendar/server/file-uploader/
+Sypnoptic:wp-content/themes/synoptic/lib/avatarupload/upload.php
+Wpshop:wp-content/plugins/wpshop/includes/ajax.php?elementCode=ajaxUpload
+Wp json:index.php/wp-json/wp/v2/posts/
+Cubed:wp-content/themes/cubed_v1.2/functions/upload-handler.php
+Rightnow:wp-content/themes/RightNow/includes/uploadify/upload_settings_image.php
+Komzept:wp-content/themes/konzept/includes/uploadify/upload.php
+Omni secure files:wp-content/plugins/omni-secure-files/plupload/examples/upload.php
+Pitchprint:wp-content/plugins/pitchprint/uploader/
+Satoshi:wp-content/themes/satoshi/upload-file.php
+Pinboard:wp-content/themes/pinboard/themify/themify-ajax.php?upload=1
+Barclaycart:wp-content/plugins/barclaycart/uploadify/uploadify.php
+Columnadvert:modules/columnadverts/uploadimage.php
+Soopamobile:modules/soopamobile/uploadimage.php
+Soopabanner:modules/soopabanners/uploadimage.php
+Vtermsideshow:modules/vtermslideshow/uploadimage.php
+Simpleslideshow:modules/simpleslideshow/uploadimage.php
+Blocktestimonial:modules/blocktestimonial/addtestimonial.php
+Productpageadverts:modules/productpageadverts/uploadimage.php
+Homepageadvertise:modules/homepageadvertise/uploadimage.php
+Homepageadvertise2:modules/homepageadvertise2/uploadimage.php
+Jro_homepageadvertise:modules/jro_homepageadvertise/uploadimage.php
+Attributewizardpro:modules/attributewizardpro/file_upload.php
+1Attributewizardpro:modules/1attributewizardpro/file_upload.php
+Attributewizardpro.OLD:modules/attributewizardpro.OLD/file_upload.php
+Atributewizardpro.X:modules/attributewizardpro_x/file_upload.php
+Advancedslider:modules/advancedslider/ajax_advancedsliderUpload.php?action=submitUploadImage%26id_slide=php
+Cartabandomentpro:modules/cartabandonmentpro/upload.php
+Cartabandomentproold:modules/cartabandonmentproOld/upload.php
+Videostab:modules/videostab/ajax_videostab.php?action=submitUploadVideo%26id_product=upload
+Wg24theme:modules//wg24themeadministration/wg24_ajax.php
+Fieldvmegamenu:modules/fieldvmegamenu/ajax/upload.php
+Wdoptionpanel:modules/wdoptionpanel/wdoptionpanel_ajax.php
+Pk_vlexmenu:modules/pk_flexmenu/ajax/upload.php
+Nvn_export_orders:modules/nvn_export_orders/upload.php
+Megamenu:modules/megamenu/uploadify/uploadify.php?id=XAttacker.php
+Tdpsthemeoptionpanel:modules/tdpsthemeoptionpanel/tdpsthemeoptionpanelAjax.php
+Psmodthemeoptionpanel:modules/psmodthemeoptionpanel/psmodthemeoptionpanel_ajax.php
+Masseditproduct:modules/lib/redactor/file_upload.php
+Lokopanel:redaktur
+Comjce:index.php?option=com_jce&task=plugin&plugin=imgmanager&file=imgmanager&method=form&cid=20
+Commedia:index.php?option=com_media&view=images&tmpl=component&fieldid=&e_name=jform_articletext&asset=com_content&author=&folder=
+Comfabrik:index.php?option=com_fabrik&c=import&view=import&filetype=csv&table=1
+Comfabrik_index:index.php?option=com_fabrik&c=import&view=import&filetype=csv&table=1
+Comfabrik2:index.php?option=com_fabrik&format=raw&task=plugin.pluginAjax&plugin=fileupload&method=ajax_upload
+Comfabrik_imdex2:index.php?option=com_fabrik&format=raw&task=plugin.pluginAjax&plugin=fileupload&method=ajax_upload
+Comadsmanager:index.php?option=com_adsmanager&task=upload&tmpl=component
+Comblog:index.php?option=com_myblog&task=ajaxupload
+Comuser:index.php?option=com_users&view=registration
+Com_simplefileupload:modules/mod_simplefileuploadv1.3/elements/udd.php
+Com_jbcatalog:components/com_jbcatalog/libraries/jsupload/server/php
+Com_sexycontactform:com_sexycontactform/fileupload/index.php
+Com_rokdownloads:administrator/components/com_rokdownloads/assets/uploadhandler.php
+Com_extplorer:administrator/components/com_extplorer/uploadhandler.php
+Com_jwallpaper:index.php?option=com_jwallpapers&task=upload
+Com_facileforms:components/com_facileforms/libraries/jquery/uploadify.php
