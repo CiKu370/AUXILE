@@ -107,7 +107,6 @@ def hash_scan():
                 printf('[!] hash not supported')
 def dorking(query , sqlscan = None):
     printf('[+] Start dorking..')
-    debby = 0
     headers = { 'User-agent' : 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36' }
     urls = []
     FILE = 'Auxile_dork_result.txt'
@@ -226,24 +225,27 @@ def dorking(query , sqlscan = None):
         out.close()
         printf('[+] Found %s urls, output file: %s' % (len(urls),FILE))
     else:
+        debby = []
         printf('[+] Scan sql error..')
-        out_ = open('Auxile_sql_result.txt','w')
+        outsql = open('Auxile_sql_result.txt','w')
         for i in urls:
             try:
                 url = i.replace('%3F','?').replace('%3D','=')
                 source = requests.get(url + "'").text
                 for type,eMSG in errors.items():
                     if re.search(eMSG, source):
-			printf('*? %s' % url)
-                        out._write(url + '\n')
-                        debby += 1
+			printf('*? %s [\033[92m%s\033[0m]' % (url,type))
+                        debby.append(url)
             except:
                 pass
-        if debby == 0:
+        if len(debby) == 0:
             printf('[!] Can\'t find sql error !')
             return
-        out_.close()
-        printf('[+] Found %s urls, output file: Auxile_sql_result.txt' % debby)
+	else:
+            for i in debby:
+		outsql.write(i.strip() + '\n')
+	    outsql.close()
+            printf('[+] Found %s urls, output file: Auxile_sql_result.txt' % debby)
 def hackedmail(email):
     headers = {'User-Agent': 'Mozilla/5.0 (X11;Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
                 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
