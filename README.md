@@ -39,7 +39,5 @@ python2 AUXILE.py
 ## dependencies
 * Python 2.7.x
 * Python module to install: `requests`,`bs4`
-## usage
-just type <code>help</code> or <code>help more</code>
 <br>
 <b>AUXILE is licensed under the [MIT License](https://github.com/CiKu370/AUXILE/blob/master/LICENSE)
