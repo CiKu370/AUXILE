@@ -40,4 +40,4 @@ python2 AUXILE.py
 * Python 2.7.x
 * Python module to install: `requests`,`bs4`,`pexpect` or `pip2 install -r requirements.txt`
 <br>
-<b>AUXILE is licensed under the [MIT License](https://github.com/CiKu370/AUXILE/blob/master/LICENSE)
+<b>AUXILE is licensed under the MIT license
