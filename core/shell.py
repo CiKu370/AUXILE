@@ -91,7 +91,7 @@ def Fuck_Fake_Friends():
                            elif wibu[0] == 'help':
                                show_modules('0')
                            elif wibu[0] in ['q','quit']:
-                               exit_()
+                               break
                        except (IndexError,KeyError):
                            usage(wibu[0])
                        except KeyboardInterrupt:
@@ -142,7 +142,7 @@ def Fuck_Fake_Friends():
                             elif wibu[0] == 'help':
                                 show_modules('1')
                             elif wibu[0] in ['q','quit']:
-                                exit_()
+                                break
                         except (IndexError,KeyError):
                             usage(wibu[0])
                         except KeyboardInterrupt:
@@ -185,7 +185,7 @@ def Fuck_Fake_Friends():
                             elif wibu[0] == 'help':
                                 show_modules('2')
                             elif wibu[0] in ['q','quit']:
-                                exit_()
+                                break
                         except (IndexError,KeyError):
                             usage(wibu[0])
                         except KeyboardInterrupt:
@@ -232,7 +232,7 @@ def Fuck_Fake_Friends():
                             elif wibu[0] == 'pres_advanced_exp':
                                 as_ex(arg['-u'],arg['-f'])
                             elif wibu[0] in ['q','quit']:
-                                exit_()
+                                break
                             elif wibu[0] == 'help':
                                 show_modules('3')
                         except (IndexError,KeyError):
@@ -264,7 +264,7 @@ def Fuck_Fake_Friends():
                             elif wibu[0] in hash_array:
                                 hash(wibu[0],arg['-s'])
 			    elif wibu[0] in ['q','quit']:
-                                exit_()
+                                break
                             elif wibu[0] == 'help':
                                 show_modules('4')
 			except (IndexError,KeyError):
@@ -305,7 +305,7 @@ def Fuck_Fake_Friends():
 			    elif wibu[0] == 'exploit':
 				listener_(opt['HOST'],(opt['PORT']))
 			    elif wibu[0] in ['q','quit']:
-				exit_()
+				break
                         except IndexError:
 			    pass
                         except KeyboardInterrupt:
